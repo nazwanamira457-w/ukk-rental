@@ -16,12 +16,11 @@
 <div class="sidebar-header">
 <a class="brand-mark" href="<?= site_url('dashboard') ?>">
 <span class="brand-copy">
-<span class="brand-title">Rental Mobil</span>
+<span class="brand-title">RENTAL RARACUTE</span>
 </span>
 </a>
 </div>
 
-```
 <nav class="sidebar-nav nav flex-column">
     <a class="nav-link <?= $active == 'dashboard' ? 'active' : '' ?>" href="<?= site_url('dashboard') ?>">
         <span class="nav-text">Dashboard</span>
@@ -30,9 +29,8 @@
 </nav>
 
 <div class="sidebar-footer">
-    <span class="sidebar-footer-text">&copy; <?= date('Y') ?> Rental Mobil</span>
+    <span class="sidebar-footer-text">&copy; <?= date('Y') ?> RARAIMUT</span>
 </div>
-```
 
 </aside>
 <div class="sidebar-backdrop" data-sidebar-close></div>
