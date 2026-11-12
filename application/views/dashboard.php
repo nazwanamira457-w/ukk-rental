@@ -3,7 +3,7 @@
 <h1 class="h3 mb-4">Dashboard</h1>
 
 <?php if (!empty($pesan) && $pesan == 'dihapus'): ?>
-<div class="alert alert-success">Data mobil berhasil dihapus.</div>
+<div class="alert alert-success">Data Rental mobil Raracute berhasil dihapus.</div>
 <?php endif; ?>
 
 <p class="text-muted mb-3">

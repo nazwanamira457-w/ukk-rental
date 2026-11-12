@@ -29,6 +29,12 @@ public function detail($id = 0) {
     $this->load->view('detail', ['mobil' => $mobil]);
 }
 
-
+public function hapus($id = 0) {
+    if ($this->input->method() !== 'post') {
+        show_404();
+    }
+    $this->Mobil_model->delete($id);
+    redirect('dashboard?pesan=dihapus');
+}
 
 }
